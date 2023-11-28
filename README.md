@@ -25,7 +25,7 @@ This project features an interactive map with a video background and tooltips th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/maurya-sachin/InteractiveMap.git
    ```
 
 2. Open the `index.html` file in your web browser.
