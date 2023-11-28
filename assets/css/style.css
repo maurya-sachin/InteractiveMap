@@ -1,0 +1,260 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+#videoBg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+section {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#map {
+    padding-left: 30vw;
+    width: 40vw;
+    height: 100%;
+}
+
+@media (max-width: 1700px) {
+    #map {
+        padding-left: 25vw;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1400px) {
+    #map {
+        padding-left: 20vw;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    #map {
+        padding-left: 15vw;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    #map {
+        padding-left: 10vw;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 800px) {
+    #map {
+        padding-left: 5vw;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #map {
+        padding-left: 0;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 400px) {
+    #map {
+        width: 50vh;
+    }
+}
+
+path {
+    fill: #d4d4d4;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+    transition: fill 0.3s;
+}
+
+
+circle {
+    fill: red;
+    stroke: black;
+    stroke-width: 1;
+    r: 5;
+}
+
+
+path:hover {
+    stroke-width: 1.5;
+
+}
+
+#andaman:hover {
+    fill: green;
+}
+
+#telangana:hover {
+    fill: darkgoldenrod;
+}
+
+#andhra:hover {
+    fill: forestgreen;
+}
+
+#Arunachal:hover {
+    fill: chartreuse;
+}
+
+#Assam:hover {
+    fill: darksalmon;
+}
+
+#Bihar:hover {
+    fill: aqua
+}
+
+#Chhattisgarh:hover {
+    fill: chocolate;
+}
+
+#Dadra:hover {
+    fill: crimson;
+}
+
+#Daman:hover {
+    fill: crimson;
+}
+
+#Delhi:hover {
+    fill: chocolate;
+}
+
+#Goa:hover {
+    fill: darkgray;
+}
+
+#Gujarat:hover {
+    fill: deeppink;
+}
+
+#Haryana:hover {
+    fill: deepskyblue;
+}
+
+#Himachal:hover {
+    fill: darkslategray;
+}
+
+#Jharkhand:hover {
+    fill: lightcoral;
+}
+
+#Karnataka:hover {
+    fill: midnightblue;
+}
+
+#Kerala:hover {
+    fill: teal;
+}
+
+
+#Madhya:hover {
+    fill: indigo;
+}
+
+#Maharashtra:hover {
+    fill: darkred;
+}
+
+#Manipur:hover {
+    fill: goldenrod;
+}
+
+#Meghalaya:hover {
+    fill: lightgreen;
+}
+
+#Mizoram:hover {
+    fill: darkslategrey;
+}
+
+#Nagaland:hover {
+    fill: fuchsia;
+}
+
+#Orissa:hover {
+    fill: olive;
+}
+
+#Punjab:hover {
+    fill: lemonchiffon;
+}
+
+#Rajasthan:hover {
+    fill: darksalmon;
+}
+
+#Sikkim:hover {
+    fill: palegoldenrod;
+}
+
+#Tamil:hover {
+    fill: gold;
+}
+
+#Tripura:hover {
+    fill: mediumorchid;
+}
+
+#Uttar:hover {
+    fill: #ff9933;
+}
+
+#Uttarakhand:hover {
+    fill: mediumorchid;
+}
+
+#West:hover {
+    fill: burlywood;
+}
+
+#Lakshadweep:hover {
+    fill: dimgray;
+}
+
+#Jammu:hover {
+    fill: aqua;
+}
+
+#Ladakh:hover {
+    fill: deepskyblue;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    display: none;
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+#tooltip>p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
